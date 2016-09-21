@@ -8,6 +8,8 @@ We're going to begin designing what you want your personal portfolio website to 
 
 ## Deliverables
 
+> *Note*: We only expect you to create **one** page for your portfolio but may split up one into multiple!
+
 - Photos of physical wireframes created for your website
 - Should create a wireframe for each individual page
 - Description of why you designed the layout the way you did
