@@ -18,9 +18,12 @@ body {
 
 p {
     text-align: center;
-    padding: 25%;
     letter-spacing: 0.25em;
     color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    padding-top: 20%;
 }
 
 a {
@@ -55,10 +58,10 @@ nav {
     letter-spacing: 0.25rem;
 }
 
-nav ul {
+ul {
     padding: 0;
 }
-nav ul li {
+ul li {
     display: inline;
     text-decoration: none;
 }
@@ -73,6 +76,15 @@ nav ul li a:hover {
     background-color: rgba(33,33,33 ,0.5);
 }
 
+section {
+    padding: 25% 25% 0 25%;
+    margin: 0;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+}
 .full-page {
     width: 100%;
     height: 700px;
@@ -89,3 +101,9 @@ nav ul li a:hover {
 #contact {
     background-color: rgb(9, 14, 53);
 }
+
+.social-icon {
+    width: 5%;
+    padding: 0 2% 0 2%;
+}
+
