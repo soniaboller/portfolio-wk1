@@ -29,3 +29,10 @@ We're going to begin designing what you want your personal portfolio website to 
 - A `<footer>` containing:
   - `&copy` right information 
   - `<a>` to email you (use `mailto:my@somewhere.net`)
+
+## Get Creative
+
+- Use colour!
+- Stick to no more than 2 fonts
+- Add images!
+- Research CSS attributes!
