@@ -1,3 +1,5 @@
+/*general page properties*/
+
 html, body, p, h1, h2 {
     padding: 0;
     margin: 0;
@@ -9,7 +11,7 @@ html {
 
 body {
     font-size: 16px;
-    background-color: rgba(55,71,79 ,1);
+    background-color: rgb(9, 14, 53);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -38,6 +40,7 @@ h1 {
     padding: 25% 10% 1% 10%;
     margin: 0;
     font-size: 5em;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 h2 {
@@ -47,9 +50,11 @@ h2 {
     color: rgba(255, 255, 255, 0.2);
 }
 
+/* top fixed nav bar*/
+
 nav {
     position: fixed;
-    background-color: rgba(33,33,33,0.5);
+    background-color: rgba(33, 33, 33, 0.55);
     width: 100%;
     padding: 0;
     margin: 0;
@@ -67,7 +72,7 @@ ul li {
 }
 
 nav ul li a {
-    color: #696969;
+    color: #9f9f9f;
     margin: 5%;
     padding: 1.25% 2% 1.25% 2%;
 }
@@ -76,7 +81,34 @@ nav ul li a:hover {
     background-color: rgba(33,33,33 ,0.5);
 }
 
-section {
+/*portfolio*/
+
+.img-wrap {
+    width: 21%;
+    float:left;
+    padding: 0.5%;
+    margin: 15% 5% 5% 5%;
+    border: #b8b8b8 solid 5px;
+
+}
+
+.portfolio-squares {
+    max-width: 100%;
+    opacity:0.9;
+}
+
+.portfolio-squares:hover {
+    opacity: 0.4;
+    -webkit-transition: opacity 400ms;
+    -moz-transition: opacity 400ms;
+    -o-transition: opacity 400ms;
+    transition: opacity 400ms;
+}
+
+
+/*footer*/
+
+#social-media {
     padding: 25% 25% 0 25%;
     margin: 0;
     color: #fff;
@@ -85,21 +117,27 @@ section {
 footer {
     text-align: center;
 }
+
+/*slide pages */
 .full-page {
     width: 100%;
     height: 700px;
 }
 
+#home {
+    background-color: rgb(9, 14, 53);
+}
+
 #about {
-    background-color: rgba(61, 19, 107, 0.5);
+    background-color: rgb(24, 14, 53);
 }
 
 #portfolio {
-    background-color: rgb(15, 95, 94);
+    background-color: rgb(39, 13, 53);
 }
 
 #contact {
-    background-color: rgb(9, 14, 53);
+    background-color: rgb(53, 10, 53);
 }
 
 .social-icon {
