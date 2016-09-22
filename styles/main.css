@@ -24,9 +24,6 @@ p {
     color: rgba(255, 255, 255, 0.8);
 }
 
-footer {
-    padding-top: 20%;
-}
 
 a {
     text-decoration: none;
@@ -127,6 +124,7 @@ p.img-desc {
     visibility: hidden;
     background-color: rgba(255, 255, 255, 0);
     opacity:0;
+    font-size: 1.25rem;
 }
 
 /* can you on:hover on .portfolio-squares rather than creating a section wrap tag?*/
@@ -147,6 +145,8 @@ section.img-wrap:hover  p.img-desc {
 
 footer {
     text-align: center;
+    font-size: 1.25rem;
+    padding-top: 22%;
 }
 
 /*slide pages */
@@ -176,3 +176,10 @@ footer {
     padding: 0 2% 0 2%;
 }
 
+/* mobile specs */
+@media (max-width: 500px) {
+    ul li {
+        display: block;
+    }
+
+}
