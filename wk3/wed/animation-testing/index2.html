@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>D3 TESTING</title>
+        <!--<link rel="stylesheet" href="styles/skeleton.css">-->
+        <!--<link href="styles/main.css" type="text/css" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <style>
+            .sonia {
+                font-size:10em;
+                fill: purple;
+                stroke: black;
+                stroke-width: 2px;
+                font-family: 'Poiret One', Helvetica,sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <svg width="1200" height="600">
+                <rect x="50" y="50" width="50" height="50" fill="rgb(255, 0, 0)"></rect>
+                <rect x="150" y="50" width="50" height="50" fill="rgb(0, 220, 0)"></rect>
+                <rect x="50" y="150" width="50" height="50" fill="rgb(0, 0, 255)"></rect>
+                <rect x="150" y="150" width="50" height="50" fill="rgb(125, 0, 125)"></rect>
+                <circle cx="300" cy="300" r="50" fill="rgb(0, 125, 125)" stroke="black" stroke-width="5px"></circle>
+                <path d="M50 50 L200 200 L50 200 L200 50 L50 50"
+                      stroke="black" stroke-width="1" fill="none"></path>
+
+                <line x1="50" y1="400" x2="50" y2="500" stroke="black"></line>
+                <line x1="50" y1="500" x2="150" y2="500" stroke="black"></line>
+                <g transform="translate(10,0)">
+                <circle r="10" cx="50" cy="400" fill="black"></circle>
+                <circle r="10" cx="150" cy="450" fill="black"></circle>
+                <circle r="10" cx="100" cy="455" fill="black"></circle>
+                </g>
+
+                <text class="sonia" x="300" y="150">sonia</text>
+            </svg>
+        </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script type="text/javascript" src="scripts/d3/d3.js"></script>
+    <script>
+        var objectArray = [
+                {x: 200, y: 100},
+                {x: 150, y: 300},
+                {x: 250, y: 200}
+                ];
+        objectArray.forEach(function(d){
+            console.log('x: '+ d.x + ', y: '+ d.y)
+        });
+
+//        d3.csv("data.csv", type, function (objectArray){
+//            objectArray.forEach(function(d){
+//                console.log(d.x + d.y);
+//            })
+//        });
+//
+//        function type(d) {
+//            d.x = parseFloat(d.x);
+//            d.y = parseFloat(d.y);
+//            return d;
+//        }
+
+    </script>
+    </body>
+</html>
